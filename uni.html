@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal Printing & Advertising | We Ink What We Think</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="uni.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Universal Printing & Advertising</h1>
+                <p class="motto">We Ink What We Think</p>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="video-background">
+            <video autoplay muted loop playsinline>
+                <source src="/img/9.mp4" type="video/mp4">
+                <img src="assets/printing-bg.jpg" alt="Printing Background">
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h2>Premium Printing Solutions</h2>
+            <p>Quality prints that speak volumes about your brand</p>
+            <div class="address-box">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>123 Print Street, Inktown, IN 12345</p>
+            </div>
+            <a href="#contact" class="btn">Get a Quote</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-print"></i>
+                    <h3>Offset Printing</h3>
+                    <p>High-quality commercial printing for brochures, catalogs, and more.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-ad"></i>
+                    <h3>Advertising</h3>
+                    <p>Creative ad campaigns that get your brand noticed.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-tshirt"></i>
+                    <h3>Promotional Products</h3>
+                    <p>Custom branded merchandise to boost your marketing.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-sign"></i>
+                    <h3>Signage</h3>
+                    <p>Eye-catching signs and trade show displays.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-box-open"></i>
+                    <h3>Packaging</h3>
+                    <p>Custom packaging solutions that protect and promote.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-digital-tachograph"></i>
+                    <h3>Digital Printing</h3>
+                    <p>Fast, high-quality digital prints for all your needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Our Work</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="/img/6.jpg" alt="Brochure Printing">
+                    <div class="portfolio-overlay">
+                        <h3>Brochure Printing</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="/img/7.jpg" alt="Business Cards">
+                    <div class="portfolio-overlay">
+                        <h3>Business Cards</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="/img/2.jpg" alt="Packaging">
+                    <div class="portfolio-overlay">
+                        <h3>Product Packaging</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="/img/4.jpg" alt="Signage">
+                    <div class="portfolio-overlay">
+                        <h3>Store Signage</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">About Us</h2>
+                <p>Universal Printing & Advertising has been serving businesses since 2005 with top-quality printing and innovative advertising solutions.</p>
+                <p>Our motto "We Ink What We Think" reflects our commitment to turning your vision into reality.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>18+</h3>
+                        <p>Years in Business</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>5000+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>98%</h3>
+                        <p>Client Satisfaction</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="assets/our-team.jpg" alt="Our Team">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <!-- Contact Section -->
+<section id="contact" class="section bg-light">
+    <div class="container">
+        <h2 class="section-title">Get in Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Print Street, Inktown, IN 12345</p>
+                <p><i class="fas fa-phone"></i> <a href="tel:+1234567890">(123) 456-7890</a></p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:info@universalprinting.com">info@universalprinting.com</a></p>
+                <p><i class="fas fa-clock"></i> Mon-Fri: 9AM - 6PM<br>Sat: 10AM - 3PM</p>
+                <div class="contact-social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Request a Quote</h3>
+                <form id="quoteForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" placeholder="Your Phone">
+                    </div>
+                    <div class="form-group">
+                        <select id="service" required>
+                            <option value="">Select a Service</option>
+                            <option value="printing">Printing</option>
+                            <option value="advertising">Advertising</option>
+                            <option value="promo">Promotional Products</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="4" placeholder="Project Details"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Submit Request</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Thank You Popup -->
+    <div class="popup-overlay" id="thankYouPopup">
+        <div class="popup-content">
+            <span class="close-popup">&times;</span>
+            <div class="popup-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h3>Thank You!</h3>
+            <p>Your request has been submitted successfully.</p>
+            <p>We'll contact you shortly.</p>
+            <button class="btn popup-close-btn">OK</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Company Info -->
+                <div class="footer-col footer-about">
+                    <div class="footer-logo">
+                        <h3>Universal Printing & Advertising</h3>
+                        <p class="motto">We Ink What We Think</p>
+                    </div>
+                    <p>Your trusted partner for high-quality printing and creative advertising solutions since 2005.</p>
+                    <div class="footer-newsletter">
+                        <h4>Subscribe to our newsletter</h4>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Your email address" required>
+                            <button type="submit" class="btn">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-col footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i> Services</a></li>
+                        <li><a href="#portfolio"><i class="fas fa-chevron-right"></i> Portfolio</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div class="footer-col footer-services">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Offset Printing</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Digital Printing</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Advertising</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Signage</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Promotional Products</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="footer-col footer-contact">
+        <h4>Contact Us</h4>
+        <p>Have questions? Reach out during our business hours or visit our contact page.</p>
+        <a href="#contact" class="btn">Contact Page</a>
+    </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+                <div class="footer-legal">
+                    <p>&copy; <span id="year"></span> Universal Printing & Advertising. All Rights Reserved.</p>
+                    <div class="legal-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Sitemap</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js.js"></script>
+</body>
+</html>
